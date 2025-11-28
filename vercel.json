@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm --filter website build",
+  "installCommand": "pnpm --filter website install",
+  "outputDirectory": "website/.next",
+  "framework": "nextjs",
+  "ignoreCommand": "exit 0"
+}
