@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm --filter website build",
+  "installCommand": "pnpm install --filter website",
+  "outputDirectory": "website/.next",
+  "framework": "nextjs",
+  "env": {
+    "ENABLE_ROOT_PATH_BUILD_CACHE": "0",
+    "VERCEL_FORCE_NO_BUILD_CACHE": "1"
+  }
+}
