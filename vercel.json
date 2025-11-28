@@ -1,7 +1,6 @@
 {
-  "buildCommand": "pnpm --filter website build",
-  "installCommand": "pnpm --filter website install",
+  "buildCommand": "cd website && pnpm install && pnpm build",
+  "installCommand": "echo 'Skipping root install'",
   "outputDirectory": "website/.next",
-  "framework": "nextjs",
-  "ignoreCommand": "exit 0"
+  "framework": "nextjs"
 }
