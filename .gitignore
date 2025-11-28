@@ -55,3 +55,7 @@ coverage
 .eslintcache
 
 agent/content
+website/node_modules/
+website/.next/
+website/.vercel
+website/.env.local
